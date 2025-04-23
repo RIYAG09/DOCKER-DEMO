@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: my-app-container
-        image: riya/docker-demo:latest  # Use the image pushed to Docker Hub
+        image: image: riya299/my-app:latest  
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
